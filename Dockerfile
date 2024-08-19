@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM golang:12.6-debian
+FROM golang:12.6
 WORKDIR /src
 COPY . .
 RUN go mod download
